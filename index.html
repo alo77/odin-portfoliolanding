@@ -1,62 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Breadenfish Media</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-<nav>
-    <div class="header">
-        <div class="left">
-        <div class="logo">LOGO</div>
-        </div>
-      <div class="right">
-        <ul class="links">
-            <li><a href="google.com">link-one</a></li>
-            <li><a href="google.com">link-two</a></li>
-            <li><a href="google.com">link-three</a></li>
-          </ul>
-      </div>
-    </div>
-</nav>
-    <div class="container">
-    <div class="container" flex-direction="column" color="midnightblue;">
-        <div class="container">
-            <h1>This website is awesome</h1>
-        <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur excepturi id soluta, numquam minima rerum doloremque eveniet aspernatur beatae commodi. Cupiditate recusandae ad repellendus quidem consectetur sequi amet aspernatur cumque!</div>
-        </div>
-    </div>
-        <div class="container">
-            <button class="continue">Continue</button>
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="title">Information!</div>
 
-    <div class="container">
-      <div class="info">
-        <img src="./images/barberry.png" alt="barberry">
-        <div class="text">This is a type of plant. We love this one.</div>
-      </div>
-      <div class="info">
-        <img src="./images/chilli.png" alt="chili">
-        <div class="text">This is another type of plant. Isn't it nice?</div>
-      </div>
-      <div class="info">
-        <img src="./images/pepper.png" alt="pepper">
-        <div class="text">We have so many plants. Yay plants.</div>
-      </div>
-      <div class="info">
-        <img src="./images/saffron.png" alt="saffron">
-        <div class="text">I'm running out of things to say about plants.</div>
-      </div>
-    </div>
-<footer>
-    <div class="footer">Copyright © Breadenfish Media 2022.</div>
-</footer>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<header>
+		<h2><a href="https://www.abcmedia.com">ABC Media</a></h2>
+		<nav>
+			<ol><a href="#">Services</a></ol>
+			<ol><a href="#">About</a></ol>
+			<ol><a href="#">Contact</a></ol>
+		</nav>
+	</header>
+
+
+	<section class="hero">
+		<div class="background-image" style="background-image: url(assets/img/binocular.jpg);"></div>
+		<h1>Welcome!</h1>
+		<h3>This is an awesome website.</h3>
+		<a href="HTTP" class="btn">Connect with us!</a>
+	</section>
+
+
+	<section class="features">
+		<h3 class="title">Services</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<ul class="grid">
+			<li> 
+                <a href="#"><img src="assets/img/photography.png" alt="Photography" width="200" height="200"/></image></a>
+                <i class="fa fa-camera-retro"></i>
+				<h4>Photography & Videography</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li>
+			<li>
+                <a href="#"><img src="assets/img/plans-200px.png" alt="Web Development" width="200" height="200"/></image></a>
+				<i class="fa fa-cubes"></i>
+				<h4>Web Development</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li>
+			<li>
+                <a href="#"><img src="assets/img/print.png" alt="Photography" width="200" height="200"/></image></a>
+				<i class="fa fa-newspaper-o"></i>
+				<h4>Graphic Design</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li>
+		</div>
+	</section>
+
+
+	<section class="reviews">
+		<h3 class="title">Testimonials</h3>
+
+		<p class="quote">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		<p class="author">— Patricia Farrick</p>
+
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<p class="author">— George Conard</p>
+
+		<p class="quote">Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.</p>
+		<p class="author">— Kevin Baker</p>
+
+		
+	</section>
+
+
+	<section class="contact">
+		<h3 class="title">Join our newsletter</h3>	
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<hr>
+
+		<form>
+			<input type="email" placeholder="Email">
+			<a href="#" class="btn">Subscribe now</a>
+		</form>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
+		</ul>
+		<p>Copyright © ABC Media 2022.</p>
+	</footer>
+
 </body>
+
 </html>
